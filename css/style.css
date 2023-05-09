@@ -644,13 +644,7 @@ body {
   background-color: rgba(46, 47, 66, 0.4);
   backdrop-filter: blur(1px);
 
-  /* defolt */
-  opacity: 1;
-  visibility: visible;
-  pointer-events: initial;
-
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 
 }
 
