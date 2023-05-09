@@ -5,6 +5,8 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="WebStudio. Effective Solutions for Your Business">
+
    <title>WebStudio</title>
 
    <!-- Fonts styles -->
@@ -14,10 +16,11 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet">
 
-   <!-- Normalize -->
+   <!-- Modern-normalize -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous" referrerpolicy="no-referrer">
+
 
    <!-- Custom styles -->
    <link rel="stylesheet" href="./css/style.css">
@@ -31,7 +34,7 @@
             <a class="logo link" href="./index.html">Web<span class="logo-dark">Studio</span></a>
             <ul class="header-nav-list list">
                <li class="header-nav-item">
-                  <a class="header-nav-link link" href="./index.html">Studio</a>
+                  <a class="header-nav-link link active" href="./index.html">Studio</a>
                </li>
                <li class="header-nav-item">
                   <a class="header-nav-link link" href="./portfolio.html">Portfolio</a>
@@ -62,7 +65,7 @@
       <section class="hero section">
          <div class="hero-container container">
             <h1 class="hero-title">Effective Solutions for Your Business</h1>
-            <button class="hero-btn" type="button">Order Service</button>
+            <button class="hero-btn btn" type="button" data-modal-open>Order Service</button>
          </div>
       </section>
 
@@ -154,7 +157,7 @@
                      <h3 class="team-subtitle">Mark Guerrero</h3>
                      <p class="team-descr">Product Designer</p>
                      <ul class="team-icons list">
-                        <li class="team-icon">
+                        <li class="team-item-icon">
                            <a href="" class="team-icon-link link" target="_blank" rel="noopener noreferrer"
                               aria-label="Social icon">
                               <svg class="team-icon" width="16" height="16">
@@ -162,7 +165,7 @@
                               </svg>
                            </a>
                         </li>
-                        <li class="team-icon">
+                        <li class="team-item-icon">
                            <a href="" class="team-icon-link link" target="_blank" rel="noopener noreferrer"
                               aria-label="Social icon">
                               <svg class="team-icon" width="16" height="16">
@@ -170,7 +173,7 @@
                               </svg>
                            </a>
                         </li>
-                        <li class=" team-icon">
+                        <li class="team-item-icon">
                            <a href="" class="team-icon-link link" target="_blank" rel="noopener noreferrer"
                               aria-label="Social icon">
                               <svg class="team-icon" width="16" height="16">
@@ -178,7 +181,7 @@
                               </svg>
                            </a>
                         </li>
-                        <li class="team-icon">
+                        <li class="team-item-icon">
                            <a href="" class="team-icon-link link" target="_blank" rel="noopener noreferrer"
                               aria-label="Social icon">
                               <svg class="team-icon" width="16" height="16">
@@ -195,7 +198,7 @@
                      <h3 class="team-subtitle">Tom Ford</h3>
                      <p class="team-descr">Frontend Developer</p>
                      <ul class="team-icons list">
-                        <li class="team-icon">
+                        <li class="team-item-icon">
                            <a href="" class="team-icon-link link" target="_blank" rel="noopener noreferrer"
                               aria-label="Social icon">
                               <svg class="team-icon" width="16" height="16">
@@ -203,7 +206,7 @@
                               </svg>
                            </a>
                         </li>
-                        <li class="team-icon">
+                        <li class="team-item-icon">
                            <a href="" class="team-icon-link link" target="_blank" rel="noopener noreferrer"
                               aria-label="Social icon">
                               <svg class="team-icon" width="16" height="16">
@@ -211,7 +214,7 @@
                               </svg>
                            </a>
                         </li>
-                        <li class=" team-icon">
+                        <li class=" team-item-icon">
                            <a href="" class="team-icon-link link" target="_blank" rel="noopener noreferrer"
                               aria-label="Social icon">
                               <svg class="team-icon" width="16" height="16">
@@ -219,7 +222,7 @@
                               </svg>
                            </a>
                         </li>
-                        <li class="team-icon">
+                        <li class="team-item-icon">
                            <a href="" class="team-icon-link link" target="_blank" rel="noopener noreferrer"
                               aria-label="Social icon">
                               <svg class="team-icon" width="16" height="16">
@@ -238,7 +241,7 @@
                      <h3 class="team-subtitle">Camila Garcia</h3>
                      <p class="team-descr">Marketing</p>
                      <ul class="team-icons list">
-                        <li class="team-icon">
+                        <li class="team-item-icon">
                            <a href="" class="team-icon-link link" target="_blank" rel="noopener noreferrer"
                               aria-label="Social icon">
                               <svg class="team-icon" width="16" height="16">
@@ -246,7 +249,7 @@
                               </svg>
                            </a>
                         </li>
-                        <li class="team-icon">
+                        <li class="team-item-icon">
                            <a href="" class="team-icon-link link" target="_blank" rel="noopener noreferrer"
                               aria-label="Social icon">
                               <svg class="team-icon" width="16" height="16">
@@ -254,7 +257,7 @@
                               </svg>
                            </a>
                         </li>
-                        <li class=" team-icon">
+                        <li class="team-item-icon">
                            <a href="" class="team-icon-link link" target="_blank" rel="noopener noreferrer"
                               aria-label="Social icon">
                               <svg class="team-icon" width="16" height="16">
@@ -262,7 +265,7 @@
                               </svg>
                            </a>
                         </li>
-                        <li class="team-icon">
+                        <li class="team-item-icon">
                            <a href="" class="team-icon-link link" target="_blank" rel="noopener noreferrer"
                               aria-label="Social icon">
                               <svg class="team-icon" width="16" height="16">
@@ -280,7 +283,7 @@
                      <h3 class="team-subtitle">Daniel Wilson</h3>
                      <p class="team-descr">UI Designer</p>
                      <ul class="team-icons list">
-                        <li class="team-icon">
+                        <li class="team-item-icon">
                            <a href="" class="team-icon-link link" target="_blank" rel="noopener noreferrer"
                               aria-label="Social icon">
                               <svg class="team-icon" width="16" height="16">
@@ -288,7 +291,7 @@
                               </svg>
                            </a>
                         </li>
-                        <li class="team-icon">
+                        <li class="team-item-icon">
                            <a href="" class="team-icon-link link" target="_blank" rel="noopener noreferrer"
                               aria-label="Social icon">
                               <svg class="team-icon" width="16" height="16">
@@ -296,7 +299,7 @@
                               </svg>
                            </a>
                         </li>
-                        <li class=" team-icon">
+                        <li class="team-item-icon">
                            <a href="" class="team-icon-link link" target="_blank" rel="noopener noreferrer"
                               aria-label="Social icon">
                               <svg class="team-icon" width="16" height="16">
@@ -304,7 +307,7 @@
                               </svg>
                            </a>
                         </li>
-                        <li class="team-icon">
+                        <li class="team-item-icon">
                            <a href="" class="team-icon-link link" target="_blank" rel="noopener noreferrer"
                               aria-label="Social icon">
                               <svg class="team-icon" width="16" height="16">
@@ -430,6 +433,24 @@
       </div>
 
    </footer>
+
+   <!-- MODAL WINDOW -->
+
+   <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+         <button class="modal-close-btn" data-modal-close>
+            <svg class="modal-close-icon" width="8" height="8">
+               <use href="./images/icons.svg#close-icon"></use>
+            </svg>
+
+         </button>
+      </div>
+   </div>
+
+   <!-- SCRIPT -->
+
+   <script src="./js/modal.js"></script>
+
 
 
 </body>
