@@ -651,8 +651,6 @@ body {
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  /* transition: opacity var(--anim), visibility var(--anim); */
-
 
 }
 
@@ -672,11 +670,8 @@ body {
 
   transform: translate(-50%,-50%) scale(1);
 
-  /* transform: transla teX(-50%) translateY(-50%); */
-
   width: 408px;
   min-height: 576px;
-  /* height: 584px; */
 
   background: var(--dairy);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -684,10 +679,8 @@ body {
   border-radius: 4px;
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  /* transition: opacity var(--anim-modal), transform var(--anim-modal); */
-  
-  transition-delay: 500ms;
+ 
+  /* transition-delay: 500ms; */
 }
 
 .backdrop.is-hidden .modal {
