@@ -532,7 +532,9 @@ body {
   border: 1px solid var(--late-slate);
   border-radius: 4px;
 
-  transition: color var(--anim), border-color var(--anim);
+  /* transition: color var(--anim), border-color var(--anim); */
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-item-link:hover,
