@@ -205,7 +205,6 @@ body {
 }
 
 .header-nav-item {
-  position: relative;
 }
 
 .header-nav-item:not(:last-child) {
@@ -213,6 +212,7 @@ body {
 }
 
 .header-nav-link {
+  position: relative;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -226,11 +226,16 @@ body {
   color: var(--ocean);
 }
 
+.header-nav-link.active {
+  position: relative;
+  color: var(--ocean);
+}
+
 .header-nav-link::after {
   content: '';
 
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
 
   width: 100%;
